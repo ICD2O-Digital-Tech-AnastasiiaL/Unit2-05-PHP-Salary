@@ -10,7 +10,11 @@
     $totalEarned = $hours * $rate
 	$govTake = $totalEarned * $TAX / 100
     $netPay = $totalEarned - $govTake
+
+    echo "<h3>Results:</h3>"
+    echo "The Government will take $" . $govTake
+    echo "The Net pay will be $" . $netPay
+
+
 ?>
-<h3>Results:</h3>
-The Government will take $<?php echo "$govTake" ?>.
-The Net pay will be $<?php echo "$netPay" ?>.
+
