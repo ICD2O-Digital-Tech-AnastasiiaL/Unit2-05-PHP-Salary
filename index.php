@@ -20,21 +20,21 @@
   <body>
 		<!-- php echo to print the html to the page -->
     <?php 
-			echo "<h1>Area of a Triangle in PHP</h1>";
-			echo "<h3>This website will help you calculate the area of a triangle.</h3>";
+			echo "<h1Salary Program, with a PHP</h1>";
+			echo "<h3>This website will help you calculate salary.</h3>";
 		?>
 		<!-- form to get the base and height from the user -->
     <form action="./results.php" method="post" target="results">
-      <label for=lblBase">Base (cm):</label>
-      <input type="text" id="base" placeholder="Enter the base (cm)" name="base"><br><br>
-      <label for="lblHeight">Height (cm):</label>
-      <input type="text" id="height" placeholder="Enter the height (cm)" name="height"><br><br>
-      <input type="submit" value="Calculate Area">
+      <label for=lblHours">Hours Worked:</label>
+      <input type="text" id="hours" placeholder="Number of Hours Worked:" name="hours"><br><br>
+      <label for="lblRate">Hourly Rate:</label>
+      <input type="text" id="rate" placeholder="Hourly Rate:" name="rate"><br><br>
+      <input type="submit" value="Calculate Amount Earned">
 		</form>
 
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">			
-				<!-- The Government will take $ + $area + .<br> -->
+				
      
 	    </iframe>
 	</body>
